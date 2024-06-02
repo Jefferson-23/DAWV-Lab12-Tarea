@@ -1,0 +1,8 @@
+<div *ngIf="user" class="card">
+    <h2>{{ user.name }}</h2>
+    <p>Nacionalidad: {{ user.country }}</p>
+    <p>Hobbies: {{ user.hobbies.join(', ') }}</p>
+    <p>Película favorita: {{ user.favoriteMovie }}</p>
+    <p>Color favorito: {{ user.favoriteColor }}</p>
+    <p>Fecha de nacimiento: {{ user.birthDate }}</p>
+</div>

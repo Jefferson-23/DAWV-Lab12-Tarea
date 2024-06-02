@@ -1,0 +1,43 @@
+.not-found {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.not-found .card {
+    width: 300px;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.not-found .card h1 {
+    margin-top: 0;
+    color: #f00f0f;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.not-found .card p {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.not-found .card a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    color: #1b0202;
+    background-color: #3eea2edc;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
